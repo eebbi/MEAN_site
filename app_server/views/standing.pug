@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .subhead
+    h2= 'Jokerit final standings in KHL each year.'
+
+  .body-ul
+    ul
+      .body-item
+        each standing in standings
+          .item
+            li= standing.year + ': '
+              h4= standing.team
+  .flex
+    .add
+        a(href="/standing/add") Edit

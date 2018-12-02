@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .subhead
+    h2= 'Add new captain:'
+
+  .body-ul
+    form(action="", method="post")
+      label Year
+        input.form-in(name="year", required)
+      label Player
+        input.form-in(name="player", required)
+      .add
+        button Add
+

@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .subhead
+    h2= 'Jokerit captains in the KHL'
+
+  .body-ul
+    ul
+      .body-item
+        each captain in captains
+         .item
+            li= captain.year + ': '
+              h4= captain.player
+  .flex
+    .add
+        a(href="/captain/add") Edit
+
