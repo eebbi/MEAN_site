@@ -2,7 +2,7 @@
 
 This is a website that was made using the MEAN stack and bootstrap.
 
-The site is about the KHL team called Jokerit, and there are two sections of the site that show the history of Jokerit captains and Jokerit standings in the Kontinental Hockey League.
+The site is about a KHL team called Jokerit, and there are two sections of the site that show the history of Jokerit captains and Jokerit standings in the Kontinental Hockey League.
 
 The user can view the information that is fetched from the API into the site, as well as add information to either of the sections of the site by clicking the "edit" button.
 
